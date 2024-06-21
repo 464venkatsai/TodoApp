@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    place-items: center;
+}
+.task{
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
+    padding: 1rem;
+    list-style: none;
+    font-family:  "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 2rem;
+    }
+input{
+        background-color: #e6e7ee;
+        outline: none;
+        border: none;
+        padding: 1rem 1rem;
+        font-size: 16px;
+        box-shadow: inset 3px 3px 6px #b8b9be,inset -3px -3px 6px #fff;
+        margin-right: 1rem;
+}
+form button{
+    padding: 1rem 2rem;
+}
+.task div{
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+    }
+.task div button{
+    padding: 0.5rem 1rem;
+}
+button{
+    background-color: #e6e7ee;
+    box-shadow: 3px 3px 6px #b8b9be,-3px -3px 6px #fff;
+    border: none;
+    outline: none;
+    }
+button:hover{
+    box-shadow: inset 3px 3px 6px #b8b9be, inset  -3px 6px #fff;
+    
+    }
+body{
+    background-color: #e6e7ee;
+    }
+.display-tasks{
+    width: 33rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: inset 3px 3px 6px #b8b9be, inset  -3px 6px #fff;
+
+}
